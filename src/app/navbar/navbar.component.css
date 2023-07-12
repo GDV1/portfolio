@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    padding: 1.5em 0 1.5em 0;
+}
+
+.container .navbar {
+    display: flex;
+}
+
+.container .navbar .menu {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.container .navbar .menu li {
+    list-style-type: none;
+}
+
+.container .navbar .menu a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    position: relative;
+}
+
+a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -0.1em;
+    left: 0;
+    background-image: linear-gradient(to right, #091879, #00D4FF);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
