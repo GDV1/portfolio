@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { learning, mySkills } from 'src/app/constants/skills';
+import { learning, mySkills } from 'src/constants/skills';
 import { Skills } from 'src/typings/skills';
 
 @Component({

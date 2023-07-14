@@ -1,0 +1,77 @@
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 1.5em
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+.card {
+    display: flex;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #091879, #00D4FF) border-box;
+    border-radius: 0.625em;
+    border: 3px solid transparent;
+    position: relative;
+    text-decoration: none;
+    width: 60%;
+    margin: 4em auto;
+} 
+
+.card > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background: #091879;
+    font-size: 1em;
+}
+
+.card > span > p {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    position: absolute;
+    font-size: 2em;
+}
+
+.card > .content {
+    width: 80vw;
+    margin: 1em 2em;
+}
+
+/********************** CARD INVERSE *************************/
+.card-inverse {
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #091879, #00D4FF) border-box;
+    border-radius: 0.625em;
+    border: 3px solid transparent;
+    position: relative;
+    text-decoration: none;
+    width: 60%;
+    margin: auto;
+} 
+
+.card-inverse > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background: #00D4FF;
+    font-size: 1em;
+}
+
+.card-inverse > span > p {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    position: absolute;
+    font-size: 2em;
+}
+
+.card-inverse > .content {
+    width: 80vw;
+    margin: 1em 2em;
+}

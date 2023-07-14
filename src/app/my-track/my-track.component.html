@@ -1,0 +1,11 @@
+<section class="track">
+    <h1>Minha trajetória</h1>
+
+    <div *ngFor="let track of tracks" class="card" [ngClass]="{'card-inverse': track.inverse, 'card': !track.inverse}">
+        <span><p>{{ track.year }}</p></span>
+        <div class="content">
+            <h4>{{ track.title }}</h4>
+            <p>{{ track.description }}</p>
+        </div>
+    </div>
+</section>
