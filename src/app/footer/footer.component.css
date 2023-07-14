@@ -1,3 +1,68 @@
 .container {
-    margin: 50em
+    margin: 5em;
 }
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0.5em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.buttons button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15em;
+    height: 4em;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #091879;
+    color: #FFF;
+    transform: scale(1, 1);
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(to right, #091879, #00D4FF);
+    transition: all 0.5s;
+}
+
+.buttons button .bi {
+    font-size: 2em;
+    color: #FFF;
+}
+
+.buttons button p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.5em;
+}
+
+footer {
+    background: linear-gradient(to right, #091879, #00D4FF);
+    color: #FFF;
+    padding: 4em;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #FFF
+}
+
+footer > p > i {
+    color: #ff0000;
+}
+
+
