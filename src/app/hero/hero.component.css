@@ -55,6 +55,7 @@ img {
     transform: scale(1.1);
     background-image: linear-gradient(to right, #091879, #00D4FF);
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .buttons button .bi {
