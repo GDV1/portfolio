@@ -1,0 +1,26 @@
+<section class="container">
+    <div class="content">
+        <div class="text">
+            <h1>Sobre</h1>
+            <p>
+                Sou desenvolvedor Frontend desde 2018, com foco em Angular,
+                fortes conhecimentos em Javascript e aprimorando habilidades
+                em React e React Native, meu objetivo é ser um desenvolvedor Fullstack. 
+                Em todos os projetos que atuei, boa comunicação, disciplina e trabalho 
+                eficiente sempre me destacaram. Estou aqui à disposição para contribuir com o seu projeto!
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="already_use">
+    <div class="already_skills">
+        <h2>Ferramentas que uso</h2>
+        <img *ngFor="let mySkill of mySkills" [src]="mySkill.path" [alt]="mySkill.alt" />
+    </div>
+
+    <div class="learning_skills">
+        <h2>Ferramentas que estou aprimorando</h2>
+        <img *ngFor="let learn of learning" [src]="learn.path" [alt]="learn.alt">
+    </div>
+</section>

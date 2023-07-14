@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto
+}
+
+.content {
+    width: 40vw;
+}
+
+.text {
+    justify-content: center;
+    display: grid;
+}
+
+.text h1 {
+    font-size: 3em;
+    justify-content: center;
+    line-height: 1.5em;
+}
+
+.text p {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: center;
+    line-height: 1.5em;
+}
+
+img {
+    width: 50%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+}
+
+.buttons button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15em;
+    height: 4em;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #091879;
+    color: #FFF;
+    transform: scale(1, 1);
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(to right, #091879, #00D4FF);
+    transition: all 0.5s;
+}
+
+.buttons button .bi {
+    font-size: 2em;
+    color: #FFF;
+}
+
+.buttons button p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.5em;
+}

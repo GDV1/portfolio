@@ -24,6 +24,7 @@
 
 .container .navbar .menu a {
     text-decoration: none;
+    font-weight: bold;
     color: #000;
     text-transform: uppercase;
     position: relative;

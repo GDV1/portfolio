@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto 6em auto;
+}
+
+.content {
+    width: 80vw;
+}
+
+.text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    width: 40vw;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+img {
+    width: 5em;
+    margin: 2em;
+    transform: scale(1);
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition: all 0.1s ease-in-out 0.01s; 
+}
+
+.already_use {
+    width: 80%;
+    text-align: center;
+    margin: 4em auto;
+    align-items: center;
+}
+
+.already_use > p {
+    margin: auto;
+}
+
+.already_skills, .learning_skills {
+    margin: 0 auto 6em auto;
+}
