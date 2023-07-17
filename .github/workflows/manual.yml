@@ -1,0 +1,33 @@
+# This is a basic workflow that is manually triggered
+name: Deploy-To-Firebase
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on: 
+  push:
+    branches: 
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js 18.16
+      uses: actions/setup-node@v1
+      with:
+        node-version: 18.16    
+    - name: Install dependencies
+      run: npm install
+    - name: Build
+      run: npm run build -- --prod
+    - uses: w9jds/firebase-action@master
+      with:
+        args: deploy
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        
