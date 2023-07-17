@@ -6,7 +6,7 @@ name: Deploy-To-Firebase
 on: 
   push:
     branches: 
-      - main
+      - master
 
   workflow_dispatch:
 
