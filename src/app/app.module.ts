@@ -10,6 +10,8 @@ import { MyTrackComponent } from './my-track/my-track.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 
+import { ButtonComponent } from '../shared/button/button.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,8 @@ import { ProjectsComponent } from './projects/projects.component';
     AboutComponent,
     MyTrackComponent,
     FooterComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
