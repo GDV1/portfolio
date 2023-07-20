@@ -1,4 +1,39 @@
-.container {
+@media screen and (max-width: 320px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin: 3em;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    h2, p {
+        text-align: center;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 1em;
+        margin-top: 2em;
+    }
+
+    .already_use, .learning_skills {
+        margin-top: 3em;
+    }
+
+    img {
+        width: 50%;
+    }
+}
+
+/* .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,4 +86,4 @@ img:hover {
 
 .already_skills, .learning_skills {
     margin: 0 auto 6em auto;
-}
+} */

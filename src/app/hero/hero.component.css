@@ -1,4 +1,41 @@
-.buttons {
+@media screen and (max-width: 320px) {
+    .container {
+        display: flex;
+        align-items: center;
+        flex-flow: column-reverse;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .text {
+        margin-bottom: 2em;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    #github, #linkedin {
+        margin: 0.5em;
+    }
+}
+
+
+/* .buttons {
     display: flex;
     justify-content: space-around;
     margin: 1em;
@@ -36,4 +73,4 @@
 
 img {
     width: 50%;
-}
+} */

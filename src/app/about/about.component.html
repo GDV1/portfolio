@@ -16,11 +16,15 @@
 <section class="already_use" id="skills">
     <div class="already_skills">
         <h2>Ferramentas que uso</h2>
-        <img *ngFor="let mySkill of mySkills" [src]="mySkill.path" [alt]="mySkill.alt" />
+        <div class="skills">
+            <img *ngFor="let mySkill of mySkills" [src]="mySkill.path" [alt]="mySkill.alt" />
+        </div>
     </div>
 
     <div class="learning_skills">
         <h2>Ferramentas que estou aprimorando</h2>
-        <img *ngFor="let learn of learning" [src]="learn.path" [alt]="learn.alt">
+        <div class="skills">
+            <img *ngFor="let learn of learning" [src]="learn.path" [alt]="learn.alt">
+        </div>
     </div>
 </section>

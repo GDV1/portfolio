@@ -1,13 +1,24 @@
 <header class="container">
-    <a href="#/"><img src="../../assets/logo.svg" alt="Logo" /></a>
-
-    <nav class="navbar">
-        <ul class="menu">
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#track">Trajetória</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#contact">Contato</a></li>
-        </ul>
-    </nav>  
+    <a href="#/">
+        <img *ngIf="show; else logoWhite" src="../../assets/logo.svg" alt="Logo" />
+        <ng-template #logoWhite>
+            <img src="../../assets/logo_white.svg" alt="Logo" />
+        </ng-template>   
+    </a>
+    <div class="menu-section" (click)="clicked()" [ngClass]="{'on': show, '': !show}">
+        <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#track">Trajetória</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
