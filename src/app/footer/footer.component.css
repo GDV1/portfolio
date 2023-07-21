@@ -1,4 +1,136 @@
-.container {
+@media screen and (max-device-width: 320px) {
+    .container {
+        margin: 3em
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+    
+    p{
+        text-align: center;
+        margin: 2em 0 2em 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 1em;
+        margin: 1em;
+    }
+
+    .buttons > app-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        background: linear-gradient(to right, #091879, #00D4FF);
+        color: #FFF;
+        padding: 0.1em;
+    }
+    
+    footer > p > a {
+        text-decoration: none;
+        color: #FFF
+    }
+    
+    footer > p > i {
+        color: #ff0000;
+    }
+}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+    .container {
+        margin: 4em;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+    
+    p{
+        text-align: center;
+        margin: 2em 0 2em 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 1em;
+        margin: 1em;
+    }
+
+    .buttons > app-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        background: linear-gradient(to right, #091879, #00D4FF);
+        color: #FFF;
+        padding: 0.1em;
+    }
+    
+    footer > p > a {
+        text-decoration: none;
+        color: #FFF
+    }
+    
+    footer > p > i {
+        color: #ff0000;
+    }
+}
+
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
+    .container {
+        margin: 5em;
+    }
+    
+    h1, p {
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 3em;
+        margin: 0.5em;
+    }
+    
+    p {
+        font-size: 1.5em;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+        margin: 2em;
+    }
+    
+    footer {
+        background: linear-gradient(to right, #091879, #00D4FF);
+        color: #FFF;
+        padding: 4em;
+    }
+    
+    footer > p > a {
+        text-decoration: none;
+        color: #FFF
+    }
+    
+    footer > p > i {
+        color: #ff0000;
+    } 
+}
+
+/* .container {
     margin: 5em;
 }
 
@@ -34,6 +166,6 @@ footer > p > a {
 
 footer > p > i {
     color: #ff0000;
-}
+} */
 
 

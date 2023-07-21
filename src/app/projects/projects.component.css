@@ -1,4 +1,29 @@
-h1 {
+@media screen and (max-width: 320px) {
+    section {
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 1em;
+        margin: 1em;
+    }
+    
+    img {
+        width: 80%;
+    }
+}
+
+/* h1 {
     font-size: 3em;
     text-align: center;
     margin: 1.5em;
@@ -13,6 +38,6 @@ img {
     width: 50%;
     display: flex;
     margin: auto;
-}
+} */
 
 

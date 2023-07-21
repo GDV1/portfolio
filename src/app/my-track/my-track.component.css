@@ -1,4 +1,46 @@
-h1 {
+@media screen and (max-width: 320px) {
+    h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .track {
+        margin-top: 3em;
+    }
+
+    .card, .card-inverse {
+        display: flex;
+        flex-direction: column;
+        margin: 2.5em;
+        background: linear-gradient(white, white) padding-box, linear-gradient(to bottom, #091879, #00D4FF) border-box;
+        border: 3px solid transparent;
+        border-radius: 0.625em;
+    }
+
+    .card > span, .card-inverse > span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        background: #091879;
+        color: #FFF;
+        height: 10vh;
+        font-weight: bold;
+    }
+
+    .card > .content > h4, .card-inverse > .content > h4 {
+        margin: 1em;
+        text-align: center
+    }
+
+    .card > .content > p, .card-inverse > .content > p {
+        text-align: justify;
+        margin: 1em;
+    }
+}
+
+
+/* h1 {
     font-size: 3em;
     text-align: center;
     margin: 1.5em
@@ -41,7 +83,6 @@ h4 {
     margin: 1em 2em;
 }
 
-/********************** CARD INVERSE *************************/
 .card-inverse {
     display: flex;
     flex-direction: row-reverse;
@@ -74,4 +115,4 @@ h4 {
 .card-inverse > .content {
     width: 80vw;
     margin: 1em 2em;
-}
+} */

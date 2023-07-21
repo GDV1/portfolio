@@ -1,6 +1,6 @@
 <header class="container">
     <a href="#/">
-        <img *ngIf="show; else logoWhite" src="../../assets/logo.svg" alt="Logo" />
+        <img *ngIf="!show; else logoWhite" src="../../assets/logo.svg" alt="Logo" />
         <ng-template #logoWhite>
             <img src="../../assets/logo_white.svg" alt="Logo" />
         </ng-template>   
