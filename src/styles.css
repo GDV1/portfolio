@@ -6,7 +6,7 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-    line-height: 1.5em; 
+    line-height: 1.5em;
 }
 
 html {
@@ -15,4 +15,32 @@ html {
     font-size: 16px;
     line-height: 1.5rem;
     scroll-behavior: smooth;
+    
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #CCC;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #091879;
+    border-radius: 10px;
+}
+
+/* media queries 
+
+@media screen and (min-device-width: 1025px) {}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 768px) {}
+
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {}
+
+@media screen and (min-device-width: 320px) {} */

@@ -1,3 +1,57 @@
+/* media queries 
+
+@media screen and (min-device-width: 1025px) {}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 768px) {}
+
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {}
+
+*/
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin: 3em;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    h2, p {
+        text-align: center;
+    }
+
+    p {
+        margin-top: 2em;
+        font-size: 1.1em;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 2em;
+        margin: 2em 2em;
+    }
+
+    .already_use, .learning_skills {
+        margin-top: 3em;
+    }
+
+    img {
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .container {
         display: flex;

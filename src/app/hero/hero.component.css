@@ -1,4 +1,63 @@
-@media screen and (max-width: 320px) {
+/* media queries 
+
+@media screen and (min-device-width: 1025px) {}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 768px) {}
+
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {}
+
+*/
+
+
+
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
+
+}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+    .container {
+        display: flex;
+        align-items: center;
+        flex-flow: column-reverse;
+        margin: 0 2em 2em 2em;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .text {
+        margin-bottom: 2em;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    #github,
+    #linkedin {
+        margin: 0.5em;
+    }
+}
+
+
+@media screen and (max-device-width: 320px) {
     .container {
         display: flex;
         align-items: center;
@@ -29,7 +88,8 @@
         flex-flow: column;
     }
 
-    #github, #linkedin {
+    #github,
+    #linkedin {
         margin: 0.5em;
     }
 }

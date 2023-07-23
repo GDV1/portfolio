@@ -7,16 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  showLogoWhite = false;
   show = false;
 
   constructor() {}
 
   clicked() {
+    document.body.style.overflow = this.show ? 'initial' : 'hidden';
     this.show = !this.show;
   }
 
-  ngOnInit() {
-    
+  ngOnInit() { 
+    if(window.innerWidth <= 425) {
+      this.showLogoWhite = true;
+    }
   }
 
 }

@@ -189,6 +189,7 @@
 
 
 @media screen and (max-device-width: 320px) {
+    
     .container {
         height: 10vh;
     }
