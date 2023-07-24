@@ -1,18 +1,104 @@
-/* media queries 
+@media screen and (min-device-width: 1025px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 50%;
+        margin: 0 auto 6em auto;
+    }
 
-@media screen and (min-device-width: 1025px) {}
+    .content {
+        width: 80vw;
+    }
 
-@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {}
+    .text {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
-@media screen and (min-device-width: 426px) and (max-device-width: 768px) {}
+    h1 {
+        font-size: 3em;
+    }
 
-@media screen and (min-device-width: 376px) and (max-device-width: 425px) {}
+    p {
+        width: 40vw;
+        text-align: center;
+        font-size: 1.2em;
+    }
 
-@media screen and (min-device-width: 321px) and (max-device-width: 375px) {}
+    img {
+        width: 5em;
+        margin: 2em;
+        transform: scale(1);
+    }
 
-*/
+    img:hover {
+        transform: scale(1.2);
+        transition: all 0.1s ease-in-out 0.01s;
+    }
 
-@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+    .already_use {
+        width: 80%;
+        text-align: center;
+        margin: 4em auto;
+        align-items: center;
+    }
+
+    .already_use>p {
+        margin: auto;
+    }
+
+    .already_skills,
+    .learning_skills {
+        margin: 0 auto 6em auto;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin: 0 3em 3em
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    h2,
+    p {
+        text-align: center;
+    }
+
+    p {
+        margin: 2em 4em;
+        font-size: 1.1em;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        gap: 3em;
+        margin: 4em;
+    }
+
+    .already_use,
+    .learning_skills {
+        margin-top: 3em;
+    }
+
+    img {
+        width: 50%;
+    }
+}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 768px) {
     .container {
         display: flex;
         justify-content: center;
@@ -26,7 +112,50 @@
         text-align: center;
     }
 
-    h2, p {
+    h2,
+    p {
+        text-align: center;
+    }
+
+    p {
+        margin-top: 2em;
+        font-size: 1.1em;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 3em;
+        margin: 2em 2em;
+    }
+
+    .already_use,
+    .learning_skills {
+        margin-top: 3em;
+    }
+
+    img {
+        width: 50%;
+    }
+}
+
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
+.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin: 3em;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    h2,
+    p {
         text-align: center;
     }
 
@@ -43,7 +172,50 @@
         margin: 2em 2em;
     }
 
-    .already_use, .learning_skills {
+    .already_use,
+    .learning_skills {
+        margin-top: 3em;
+    }
+
+    img {
+        width: 50%;
+    }
+}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin: 3em;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    h2,
+    p {
+        text-align: center;
+    }
+
+    p {
+        margin-top: 2em;
+        font-size: 1.1em;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 2em;
+        margin: 2em 2em;
+    }
+
+    .already_use,
+    .learning_skills {
         margin-top: 3em;
     }
 
@@ -66,7 +238,8 @@
         text-align: center;
     }
 
-    h2, p {
+    h2,
+    p {
         text-align: center;
     }
 
@@ -78,7 +251,8 @@
         margin-top: 2em;
     }
 
-    .already_use, .learning_skills {
+    .already_use,
+    .learning_skills {
         margin-top: 3em;
     }
 

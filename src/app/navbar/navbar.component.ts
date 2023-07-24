@@ -18,7 +18,7 @@ export class NavbarComponent implements OnInit {
   }
 
   ngOnInit() { 
-    if(window.innerWidth <= 425) {
+    if(window.innerWidth <= 426) {
       this.showLogoWhite = true;
     }
   }

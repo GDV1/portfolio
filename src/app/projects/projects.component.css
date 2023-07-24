@@ -1,3 +1,133 @@
+/* media queries 
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 768px) {}
+
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {}
+
+
+*/
+
+@media screen and (min-device-width: 1025px) {
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        margin: 1.5em;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    img {
+        width: 50%;
+        display: flex;
+        margin: auto;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    section {
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1em;
+        margin: 1em;
+    }
+
+    img {
+        width: 60%;
+    }
+}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 768px) {
+    section {
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1em;
+        margin: 1em;
+    }
+
+    img {
+        width: 60%;
+    }
+}
+
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
+    section {
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1em;
+        margin: 1em;
+    }
+
+    img {
+        width: 80%;
+    }
+}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+    section {
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1em;
+        margin: 1em;
+    }
+
+    img {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 320px) {
     section {
         margin: 1em;
@@ -6,18 +136,18 @@
         align-items: center;
         flex-flow: column;
     }
-    
+
     h1 {
         font-size: 2em;
         text-align: center;
     }
-    
+
     p {
         text-align: center;
         font-size: 1em;
         margin: 1em;
     }
-    
+
     img {
         width: 80%;
     }
@@ -39,5 +169,3 @@ img {
     display: flex;
     margin: auto;
 } */
-
-

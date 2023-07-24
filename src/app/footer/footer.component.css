@@ -1,45 +1,168 @@
-@media screen and (max-device-width: 320px) {
+@media screen and (min-device-width: 1025px) {
     .container {
-        margin: 3em
+        margin: 5em 0;
+    }
+
+    h1,
+    p {
+        text-align: center;
     }
 
     h1 {
-        text-align: center;
-        font-size: 1.5em;
-        line-height: 1em;
+        font-size: 2.5em;
+        margin: 1em;
     }
-    
-    p{
-        text-align: center;
-        margin: 2em 0 2em 0;
+
+    p {
+        font-size: 1.5em;
     }
 
     .buttons {
         display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        gap: 1em;
-        margin: 1em;
-    }
-
-    .buttons > app-button {
-        display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        margin: 4em 2em;
     }
 
     footer {
         background: linear-gradient(to right, #091879, #00D4FF);
         color: #FFF;
-        padding: 0.1em;
+        padding: 4em;
     }
-    
-    footer > p > a {
+
+    footer>p>a {
         text-decoration: none;
         color: #FFF
     }
-    
-    footer > p > i {
+
+    footer>p>i {
+        color: #ff0000;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+    .container {
+        margin: 5em 0;
+    }
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin: 1em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+        margin: 4em 2em;
+        gap: 1.5em;
+    }
+
+    footer {
+        background: linear-gradient(to right, #091879, #00D4FF);
+        color: #FFF;
+        padding: 4em;
+    }
+
+    footer>p>a {
+        text-decoration: none;
+        color: #FFF
+    }
+
+    footer>p>i {
+        color: #ff0000;
+    }
+}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 768px) {
+    .container {
+        margin: 5em 0;
+    }
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin: 1em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+        margin: 4em 2em;
+        gap: 1.5em;
+    }
+
+    footer {
+        background: linear-gradient(to right, #091879, #00D4FF);
+        color: #FFF;
+        padding: 4em;
+    }
+
+    footer>p>a {
+        text-decoration: none;
+        color: #FFF
+    }
+
+    footer>p>i {
+        color: #ff0000;
+    }
+}
+
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
+    .container {
+        margin: 2em;
+    }
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin: 0.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        margin: 2em;
+    }
+
+    footer {
+        background: linear-gradient(to right, #091879, #00D4FF);
+        color: #FFF;
+        padding: 4em;
+    }
+
+    footer>p>a {
+        text-decoration: none;
+        color: #FFF
+    }
+
+    footer>p>i {
         color: #ff0000;
     }
 }
@@ -54,8 +177,8 @@
         font-size: 1.5em;
         line-height: 1em;
     }
-    
-    p{
+
+    p {
         text-align: center;
         margin: 2em 0 2em 0;
     }
@@ -69,7 +192,7 @@
         margin: 1em;
     }
 
-    .buttons > app-button {
+    .buttons>app-button {
         display: flex;
         justify-content: center;
     }
@@ -79,93 +202,59 @@
         color: #FFF;
         padding: 0.1em;
     }
-    
-    footer > p > a {
+
+    footer>p>a {
         text-decoration: none;
         color: #FFF
     }
-    
-    footer > p > i {
+
+    footer>p>i {
         color: #ff0000;
     }
 }
 
-@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
+@media screen and (max-device-width: 320px) {
     .container {
-        margin: 5em;
+        margin: 3em
     }
-    
-    h1, p {
-        text-align: center;
-    }
-    
+
     h1 {
-        font-size: 3em;
-        margin: 0.5em;
-    }
-    
-    p {
+        text-align: center;
         font-size: 1.5em;
+        line-height: 1em;
     }
-    
+
+    p {
+        text-align: center;
+        margin: 2em 0 2em 0;
+    }
+
     .buttons {
         display: flex;
-        justify-content: space-around;
-        margin: 2em;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 1em;
+        margin: 1em;
     }
-    
+
+    .buttons>app-button {
+        display: flex;
+        justify-content: center;
+    }
+
     footer {
         background: linear-gradient(to right, #091879, #00D4FF);
         color: #FFF;
-        padding: 4em;
+        padding: 0.1em;
     }
-    
-    footer > p > a {
+
+    footer>p>a {
         text-decoration: none;
         color: #FFF
     }
-    
-    footer > p > i {
+
+    footer>p>i {
         color: #ff0000;
-    } 
+    }
 }
-
-/* .container {
-    margin: 5em;
-}
-
-h1, p {
-    text-align: center;
-}
-
-h1 {
-    font-size: 3em;
-    margin: 0.5em;
-}
-
-p {
-    font-size: 1.5em;
-}
-
-.buttons {
-    display: flex;
-    justify-content: space-around;
-    margin: 2em;
-}
-
-footer {
-    background: linear-gradient(to right, #091879, #00D4FF);
-    color: #FFF;
-    padding: 4em;
-}
-
-footer > p > a {
-    text-decoration: none;
-    color: #FFF
-}
-
-footer > p > i {
-    color: #ff0000;
-} */
-
-
