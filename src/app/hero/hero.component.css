@@ -114,11 +114,6 @@
         justify-content: center;
         align-items: center;
     }
-
-    #github,
-    #linkedin {
-        margin: 0.5em;
-    }
 }
 
 @media screen and (min-device-width: 376px) and (max-device-width: 425px) {
@@ -151,11 +146,6 @@
         justify-content: center;
         align-items: center;
         flex-flow: column;
-    }
-
-    #github,
-    #linkedin {
-        margin: 0.5em;
     }
 }
 
@@ -190,11 +180,6 @@
         align-items: center;
         flex-flow: column;
     }
-
-    #github,
-    #linkedin {
-        margin: 0.5em;
-    }
 }
 
 @media screen and (max-device-width: 320px) {
@@ -227,9 +212,9 @@
         align-items: center;
         flex-flow: column;
     }
+}
 
-    #github,
-    #linkedin {
-        margin: 0.5em;
-    }
+/* Global Styles */
+#github, #linkedin {
+    margin: 0.5em;
 }

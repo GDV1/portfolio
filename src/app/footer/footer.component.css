@@ -3,11 +3,6 @@
         margin: 5em 0;
     }
 
-    h1,
-    p {
-        text-align: center;
-    }
-
     h1 {
         font-size: 2.5em;
         margin: 1em;
@@ -24,18 +19,7 @@
     }
 
     footer {
-        background: linear-gradient(to right, #091879, #00D4FF);
-        color: #FFF;
         padding: 4em;
-    }
-
-    footer>p>a {
-        text-decoration: none;
-        color: #FFF
-    }
-
-    footer>p>i {
-        color: #ff0000;
     }
 }
 
@@ -44,11 +28,6 @@
         margin: 5em 0;
     }
 
-    h1,
-    p {
-        text-align: center;
-    }
-
     h1 {
         font-size: 2.5em;
         margin: 1em;
@@ -66,18 +45,7 @@
     }
 
     footer {
-        background: linear-gradient(to right, #091879, #00D4FF);
-        color: #FFF;
         padding: 4em;
-    }
-
-    footer>p>a {
-        text-decoration: none;
-        color: #FFF
-    }
-
-    footer>p>i {
-        color: #ff0000;
     }
 }
 
@@ -86,11 +54,6 @@
         margin: 5em 0;
     }
 
-    h1,
-    p {
-        text-align: center;
-    }
-
     h1 {
         font-size: 2.5em;
         margin: 1em;
@@ -108,29 +71,13 @@
     }
 
     footer {
-        background: linear-gradient(to right, #091879, #00D4FF);
-        color: #FFF;
         padding: 4em;
-    }
-
-    footer>p>a {
-        text-decoration: none;
-        color: #FFF
-    }
-
-    footer>p>i {
-        color: #ff0000;
     }
 }
 
 @media screen and (min-device-width: 376px) and (max-device-width: 425px) {
     .container {
         margin: 2em;
-    }
-
-    h1,
-    p {
-        text-align: center;
     }
 
     h1 {
@@ -152,18 +99,7 @@
     }
 
     footer {
-        background: linear-gradient(to right, #091879, #00D4FF);
-        color: #FFF;
         padding: 4em;
-    }
-
-    footer>p>a {
-        text-decoration: none;
-        color: #FFF
-    }
-
-    footer>p>i {
-        color: #ff0000;
     }
 }
 
@@ -173,13 +109,11 @@
     }
 
     h1 {
-        text-align: center;
         font-size: 1.5em;
         line-height: 1em;
     }
 
     p {
-        text-align: center;
         margin: 2em 0 2em 0;
     }
 
@@ -198,18 +132,7 @@
     }
 
     footer {
-        background: linear-gradient(to right, #091879, #00D4FF);
-        color: #FFF;
         padding: 0.1em;
-    }
-
-    footer>p>a {
-        text-decoration: none;
-        color: #FFF
-    }
-
-    footer>p>i {
-        color: #ff0000;
     }
 }
 
@@ -219,13 +142,11 @@
     }
 
     h1 {
-        text-align: center;
         font-size: 1.5em;
         line-height: 1em;
     }
 
     p {
-        text-align: center;
         margin: 2em 0 2em 0;
     }
 
@@ -244,17 +165,25 @@
     }
 
     footer {
-        background: linear-gradient(to right, #091879, #00D4FF);
-        color: #FFF;
         padding: 0.1em;
     }
+}
 
-    footer>p>a {
-        text-decoration: none;
-        color: #FFF
-    }
+/* Global Styles */
+footer {
+    background: linear-gradient(to right, #091879, #00D4FF);
+    color: #FFF;
+}
 
-    footer>p>i {
-        color: #ff0000;
-    }
+footer>p>i {
+    color: #ff0000;
+}
+
+footer>p>a {
+    text-decoration: none;
+    color: #FFF
+}
+
+h1, p {
+    text-align: center;
 }
