@@ -5,7 +5,7 @@
     }
 
     img {
-        width: 50%;
+        width: 30%;
         display: flex;
         margin: auto;
     }
@@ -39,13 +39,27 @@
     }
 }
 
-/* Global Styles */
-h1 {
-    text-align: center;
-}
+@media screen and (max-width: 320px) {
+    section {
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
 
-p {
-    text-align: center;
-    font-size: 1em;
-    margin: 1em;
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1em;
+        margin: 1em;
+    }
+
+    img {
+        width: 80%;
+    }
 }
