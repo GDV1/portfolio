@@ -6,7 +6,6 @@
 
 @media screen and (min-device-width: 376px) and (max-device-width: 425px) {}
 
-
 */
 
 @media screen and (min-device-width: 1025px) {
@@ -22,7 +21,7 @@
     }
 
     img {
-        width: 50%;
+        width: 30%;
         display: flex;
         margin: auto;
     }
@@ -152,20 +151,3 @@
         width: 80%;
     }
 }
-
-/* h1 {
-    font-size: 3em;
-    text-align: center;
-    margin: 1.5em;
-}
-
-p {
-    text-align: center;
-    font-size: 1.5em;
-}
-
-img {
-    width: 50%;
-    display: flex;
-    margin: auto;
-} */
